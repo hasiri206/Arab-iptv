@@ -1,47 +1,48 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="quran" group-title="Saudi",Saudi:Quran (Makkah)
-https://edge.taghtia.com/quran/quran.m3u8
-#EXTINF:-1 tvg-id="sunnah" group-title="Saudi",Saudi:Sunnah
-https://edge.taghtia.com/sunnah/sunnah.m3u8
-#EXTINF:-1 tvg-id="saudi1" group-title="Saudi",Saudi TV 1
-https://livecdnh2.tvanywhere.ae/hls/ksa1/05.m3u8
-#EXTINF:-1 tvg-id="thikrayat" group-title="Saudi",Saudi:Dhikrayat
-https://edge.taghtia.com/thikrayat/thikrayat.m3u8
-#EXTINF:-1 tvg-id="sbc" group-title="Saudi",Saudi:SBC
-https://edge.taghtia.com/sbc/sbc.m3u8
-#EXTINF:-1 tvg-id="ekhbariya" group-title="Saudi",Saudi:Al Ekhbariya
-https://edge.taghtia.com/ekhbariya/ekhbariya.m3u8
-#EXTINF:-1 tvg-id="mbc1" group-title="MBC",MBC 1
-https://shls-mbc1ksa-prod.shahid.net/out/v1/b4f1c51f7f054dbcb9a8f1d2345f6b67/index.m3u8
-#EXTINF:-1 tvg-id="mbc2" group-title="MBC",MBC 2
-https://shls-mbc2-prod.shahid.net/out/v1/d3729c6bc14643d8a86e8055c9e9c2ab/index.m3u8
-#EXTINF:-1 tvg-id="mbc3" group-title="MBC",MBC 3
-https://shls-mbc3-prod.shahid.net/out/v1/f58f02f20d1b40f9a2d53f0a4a35e0f3/index.m3u8
-#EXTINF:-1 tvg-id="mbcdrama" group-title="MBC",MBC Drama
-https://shls-mbcdramaksa-prod.shahid.net/out/v1/7aa1f8dcb6e94d849df2220d3cfb6cf2/index.m3u8
-#EXTINF:-1 tvg-id="rotana_khalejia" group-title="Rotana",Rotana:Khalejia
-https://rotana.hibridmedia.com/rotanakhalijia/index.m3u8
-#EXTINF:-1 tvg-id="rotana_comedy" group-title="Rotana",Rotana:Comedy
-https://rotana.hibridmedia.com/rotanacomedy/index.m3u8
-#EXTINF:-1 tvg-id="abudhabi" group-title="UAE",UAE:Abu Dhabi TV
-https://adtv.ercdn.net/AD_TV/index.m3u8
-#EXTINF:-1 tvg-id="alemarat" group-title="UAE",UAE:Al Emarat
-https://adtv.ercdn.net/AD_AlEmarat/index.m3u8
-#EXTINF:-1 tvg-id="samadubai" group-title="UAE",UAE:Sama Dubai
-https://dmi.mangomolo.com/samadubai/smil:samadubai.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="dubaitv" group-title="UAE",UAE:Dubai TV
-https://dmi.mangomolo.com/dubaitv/smil:dubaitv.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="dubaione" group-title="UAE",UAE:Dubai One
-https://dmi.mangomolo.com/dubaione/smil:dubaione.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="al_arabiya" group-title="News",Al Arabiya
+#EXTINF:-1 group-title="Saudi",Saudi:Quran (Makkah)
+https://edge.taghtia.com/quran/quran.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.saudiquran.tv/
+#EXTINF:-1 group-title="Saudi",Saudi:Sunnah
+https://edge.taghtia.com/sunnah/sunnah.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.saudisunnah.tv/
+#EXTINF:-1 group-title="Saudi",Saudi TV 1
+https://livecdnh2.tvanywhere.ae/hls/ksa1/05.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.tvanywhere.ae/
+#EXTINF:-1 group-title="Saudi",Saudi:Dhikrayat
+https://edge.taghtia.com/thikrayat/thikrayat.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.thikrayat.sa/
+#EXTINF:-1 group-title="Saudi",Saudi:SBC
+https://edge.taghtia.com/sbc/sbc.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.sbc.sa/
+#EXTINF:-1 group-title="Saudi",Saudi:Al Ekhbariya
+https://edge.taghtia.com/ekhbariya/ekhbariya.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.ekhbariya.tv/
+
+# ملاحظة: قنوات MBC عبر Shahid غالباً DRM/Token ولن تعمل هنا.
+
+#EXTINF:-1 group-title="Rotana",Rotana:Khalejia
+https://rotana.hibridmedia.com/rotanakhalijia/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://rotana.net/
+#EXTINF:-1 group-title="Rotana",Rotana:Comedy
+https://rotana.hibridmedia.com/rotanacomedy/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://rotana.net/
+
+# الإمارات / دبي / أبوظبي
+#EXTINF:-1 group-title="UAE",UAE:Abu Dhabi TV
+https://adtv.ercdn.net/AD_TV/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.adtv.ae/
+#EXTINF:-1 group-title="UAE",UAE:Al Emarat
+https://adtv.ercdn.net/AD_AlEmarat/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.adtv.ae/
+#EXTINF:-1 group-title="UAE",UAE:Sama Dubai
+https://dmi.mangomolo.com/samadubai/smil:samadubai.stream.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.dmi.ae/live/
+#EXTINF:-1 group-title="UAE",UAE:Dubai TV
+https://dmi.mangomolo.com/dubaitv/smil:dubaitv.stream.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.dmi.ae/live/
+#EXTINF:-1 group-title="UAE",UAE:Dubai One
+https://dmi.mangomolo.com/dubaione/smil:dubaione.stream.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.dmi.ae/live/
+
+# الأخبار (هذه تعمل عادة بدون هيدرز)
+#EXTINF:-1 group-title="News",Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="aljazeera" group-title="News",Al Jazeera
+#EXTINF:-1 group-title="News",Al Jazeera
 https://live-hls-web-aje.getaj.net/AJE/01.m3u8
-#EXTINF:-1 tvg-id="aljazeera_doc" group-title="News",Al Jazeera Documentary
+#EXTINF:-1 group-title="News",Al Jazeera Documentary
 https://live-hls-web-ajd.getaj.net/AJD/01.m3u8
-#EXTINF:-1 tvg-id="ktv1" group-title="Kuwait",Kuwait:KTV 1
-https://kwmedia.hibridmedia.com/kwt/ktv1/index.m3u8
-#EXTINF:-1 tvg-id="omantv" group-title="Oman",OMN:Oman TV
-https://partne.cdn.mangomolo.com/omantv/smil:omantv.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="roya" group-title="Jordan",Jordan:Roya TV
-https://roya-live.ercdn.net/roya/index.m3u8
+
+# دول أخرى (قد تحتاج VPN حسب منطقتك)
+#EXTINF:-1 group-title="Kuwait",Kuwait:KTV 1
+https://kwmedia.hibridmedia.com/kwt/ktv1/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.kwtv.gov.kw/
+#EXTINF:-1 group-title="Oman",OMN:Oman TV
+https://partne.cdn.mangomolo.com/omantv/smil:omantv.stream.smil/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://www.oman-tv.gov.om/
+#EXTINF:-1 group-title="Jordan",Jordan:Roya TV
+https://roya-live.ercdn.net/roya/index.m3u8|User-Agent=Mozilla/5.0&Referer=https://roya.tv/
